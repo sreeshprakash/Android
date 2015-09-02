@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SsActivity!</string>
+    <string name="app_name">Smart Switcher</string>
+     <string name="notification_title">Smart Switcher notification</string>
+     <string name="notification_info_success1">  Profile changed to Normal mode</string>
+      <string name="notification_info_success2">  Profile changed to Vibration mode</string>
+       <string name="notification_info_success3">  Profile changed to Silent mode</string>
+    <string name="profile_chooser">Choose a planet</string>
+    <string-array name="profile_array">
+        <item>Normal</item>
+        <item>Vibrate</item>
+        <item>Silent</item>
+    </string-array>
+    <string-array name="range_array">
+        <item>0.2 km</item>
+        <item>0.4 km</item>
+        <item>0.6 km</item>
+        <item>0.8 km</item>
+        <item>1.0 km</item>
+    </string-array>
+</resources>

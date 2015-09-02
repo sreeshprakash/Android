@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:isScrollContainer="true"
+	    android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/world1">
+	    <TimePicker android:id="@+id/TimePick" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+	    <Button android:layout_height="wrap_content" android:id="@+id/vibratebutton" android:layout_width="match_parent" android:text="Vibrate" android:layout_below="@+id/normalbutton" android:layout_alignParentLeft="true"></Button>
+	    <Button android:layout_height="wrap_content" android:id="@+id/silentbutton" android:layout_width="match_parent" android:text="Silent" android:layout_below="@+id/vibratebutton" android:layout_alignParentLeft="true"></Button>
+	    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/txt1" android:layout_width="wrap_content" android:layout_below="@+id/TimePick" android:layout_alignParentLeft="true"></TextView>
+	    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/txt3" android:layout_width="wrap_content" android:layout_below="@+id/txt1" android:layout_alignParentLeft="true"></TextView>
+	    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/txt2" android:layout_width="wrap_content" android:layout_below="@+id/txt3" android:layout_alignParentLeft="true"></TextView>
+	    <Button android:layout_height="wrap_content" android:id="@+id/normalbutton" android:text="Normal" android:layout_width="match_parent" android:layout_below="@+id/txt2" android:layout_alignParentLeft="true" android:layout_marginTop="47dp"></Button>
+	    <Button android:layout_height="wrap_content" android:id="@+id/manual" android:text="manual and map options" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true"></Button>
+	    </RelativeLayout>

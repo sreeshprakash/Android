@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.sreesh.ss"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="com.ss.SsActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <uses-library android:name="com.google.android.maps" />
+<activity android:name="com.ss.Activity2" android:label="@string/app_name"></activity>
+<activity android:name="com.ss.mapoptions" android:label="@string/app_name"></activity>
+<activity android:name="com.ss.print" android:label="@string/app_name"></activity>
+<meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCRgsASo-cq1ccXP-GYMHvPdtxJS-vKrlg"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+ <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> 
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.STATUS_BAR"/>
+</manifest>

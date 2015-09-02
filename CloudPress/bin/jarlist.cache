@@ -1,0 +1,11 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1414735072922 305001 964cd74171f427720480efdec40a7c7f6e58426a D:\Users\user\workspace\CloudPress\libs\commons-httpclient-3.1.jar
+1410517744000 305001 964cd74171f427720480efdec40a7c7f6e58426a D:\Users\user\workspace\ownCloud Android Library\libs\commons-httpclient-3.1.jar
+1410517744000 326424 c1caa7de02711cbc5769b613f446c3c4d9e78e62 D:\Users\user\workspace\ownCloud Android Library\libs\jackrabbit-webdav-2.7.2.jar
+1414735072928 326424 c1caa7de02711cbc5769b613f446c3c4d9e78e62 D:\Users\user\workspace\CloudPress\libs\jackrabbit-webdav-2.7.2.jar
+1410517744000 26084 6b262da268f8ad9eff941b25503a9198f0a0ac93 D:\Users\user\workspace\ownCloud Android Library\libs\slf4j-api-1.7.5.jar
+1414735072929 26084 6b262da268f8ad9eff941b25503a9198f0a0ac93 D:\Users\user\workspace\CloudPress\libs\slf4j-api-1.7.5.jar
+1403569040000 758727 efec67655f6db90757faa37201efcee2a9ec3507 D:\Users\user\workspace\appcompat_v7\libs\android-support-v4.jar
+1414735072916 758727 efec67655f6db90757faa37201efcee2a9ec3507 D:\Users\user\workspace\CloudPress\libs\android-support-v4.jar

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    <com.google.android.maps.MapView 
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="AIzaSyCRgsASo-cq1ccXP-GYMHvPdtxJS-vKrlg"
+        />
+ <LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        />
+ <Spinner android:id="@+id/spinner1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/mapoptions" android:layout_alignParentRight="true"></Spinner>
+ <Spinner android:id="@+id/spinner2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/spinner1" android:layout_alignParentRight="true"></Spinner>
+ <Button android:layout_height="wrap_content" android:id="@+id/accept" android:text="accept" android:layout_width="wrap_content" android:layout_below="@+id/spinner2" android:layout_alignParentRight="true"></Button> 
+</RelativeLayout>

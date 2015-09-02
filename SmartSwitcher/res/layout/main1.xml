@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/world1">
+  <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RadioButton android:id="@+id/radioButton1" android:text="Normal mode" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Silent mode" android:id="@+id/radioButton2"></RadioButton>
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vibrating mode" android:id="@+id/radioButton3"></RadioButton>
+</RadioGroup>
+  <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:text="Map options:" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_below="@+id/radioGroup1" android:layout_alignParentLeft="true" android:layout_marginTop="60dp"></TextView>
+  <Button android:id="@+id/next1" android:layout_width="wrap_content" android:text="set location" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true"></Button>
+  <Button android:id="@+id/reset" android:layout_width="wrap_content" android:text="reset locations" android:layout_height="wrap_content" android:layout_below="@+id/next1" android:layout_alignParentLeft="true"></Button>
+ </RelativeLayout>
