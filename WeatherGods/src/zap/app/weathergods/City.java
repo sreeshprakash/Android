@@ -11,11 +11,11 @@ public class City {
         prefs = activity.getPreferences(Activity.MODE_PRIVATE);
     }
     String getCity(){
-        return prefs.getString("city", "Las Vegas, US");        
+        return prefs.getString("city", "Las Vegas, US");  //get      
     }
      
     void setCity(String city){
-        prefs.edit().putString("city", city).commit();
+        prefs.edit().putString("city", city).commit();   //set
     }
      
 }
