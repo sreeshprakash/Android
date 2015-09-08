@@ -13,10 +13,10 @@ public void stegnography(BufferedImage bimg,String msg,String filename)
 
   int w=bimg.getWidth();
   int h=bimg.getHeight();
- //*************************************** 
+
  // String msg="Hide this message:)";
   System.out.println("message="+msg+" length="+msg.length());
-//*************************************** 
+
 
   if(msg.length()>255 )
   {
@@ -99,7 +99,7 @@ ImageIO.write(bimg, "png", outputfile);
 // decoding part----------------------------------------------------------------------   
 
 }
-///////////////////////////////////////////////////////////////////////
+
 private void decodestegnography(BufferedImage bimg) {
 
  System.out.println("in decode");
