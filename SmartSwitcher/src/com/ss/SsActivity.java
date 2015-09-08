@@ -199,7 +199,7 @@ locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
     	CountDownTimer a=new CountDownTimer(sec , 1000) {
     	public void onTick(long millisUntilFinished) {
     	    mTextField.setText("Normal mode in "+ millisUntilFinished / 1000 +" seconds");
-    	}
+    	} //all calculations in milliseconds
 
     	public void onFinish() {
     	    mTextField.setText("Profile changed");
