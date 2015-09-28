@@ -16,7 +16,7 @@ public void stegnography(BufferedImage bimg,String msg,String filename)
 
  // String msg="Hide this message:)";
   System.out.println("message="+msg+" length="+msg.length());
-
+// message length
 
   if(msg.length()>255 )
   {
