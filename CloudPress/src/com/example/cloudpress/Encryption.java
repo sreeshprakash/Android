@@ -75,7 +75,7 @@ public class Encryption extends Activity {
               });
 
        }
-
+// encryption algorithm
        /**
         * Here is Both function for encrypt and decrypt file in Sdcard folder. we
         * can not lock folder but we can encrypt file using AES in Android, it may
