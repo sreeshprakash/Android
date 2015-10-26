@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 
 public class Stegnography {
 	
-	stegnography(fdszfd,sdfsdv,sdvscf);
+	stegnography(fdszfd,sdfsdv,sdvscf);//display the message
 
 }
 
