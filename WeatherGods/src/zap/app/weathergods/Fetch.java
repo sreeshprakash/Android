@@ -6,7 +6,7 @@ import java.net.URL;
  
 import org.json.JSONObject;
  
-import android.content.Context;
+import android.content.Context;//weather data 
  
 public class Fetch {
  
